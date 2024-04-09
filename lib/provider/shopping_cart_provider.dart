@@ -1,3 +1,13 @@
+/*
+Author(s): KLM Tan (Week 6 Handout)
+Lab section: CMSC 23 - UV1L
+Date created: 2024-04-09
+Description: 
+  It defines the provider for the application.
+  It stores the items added in the cart and it allows adding and removing items.
+  It distributes the items states across the widget tree.
+*/
+
 import 'package:flutter/material.dart';
 import '../model/item.dart';
 

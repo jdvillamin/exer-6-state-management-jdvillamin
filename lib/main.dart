@@ -1,3 +1,13 @@
+/*
+Author(s): KLM Tan (Week 6 Handout) and Jan Neal Isaac D. Villamin
+Lab section: CMSC 23 - UV1L
+Date created: 2024-04-09
+Description: 
+  It defines the main application.
+  This is where the routes are defined.
+  The default screen is the My Catalog screen.
+*/
+
 import 'package:flutter/material.dart';
 import 'screen/checkout.dart';
 import 'screen/my_cart.dart';

@@ -1,3 +1,13 @@
+/*
+Author(s): KLM Tan (Week 6 Handout) and Jan Neal Isaac D. Villamin
+Lab section: CMSC 23 - UV1L
+Date created: 2024-04-09
+Description: 
+  It defines the My Catalog screen that will appear when accessing the /products route.
+  This is where you can add items to your cart.
+  You can access the /cart route from here.
+*/
+
 import 'package:flutter/material.dart';
 import '../model/item.dart';
 import "package:provider/provider.dart";

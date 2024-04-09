@@ -1,3 +1,12 @@
+/*
+Author(s): Jan Neal Isaac D. Villamin
+Lab section: CMSC 23 - UV1L
+Date created: 2024-04-09
+Description: 
+  It defines the checkout screen that will appear when accessing the /checkout route.
+  This where you can pay for the items added in the cart. 
+*/
+
 import 'package:flutter/material.dart';
 import '../model/item.dart';
 import "package:provider/provider.dart";
