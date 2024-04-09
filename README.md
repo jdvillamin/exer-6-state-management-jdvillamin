@@ -1,16 +1,19 @@
-# exer_6_state_management_jdvillamin
+## Student information
+**Name:** Jan Neal Isaac D. Villamin\
+**Student Number:** 2022-02425\
+**Section:** UV1L
 
-A new Flutter project.
+## Application description
+An online shopping application that lets you view products in the catalog, add and remove items from the cart, and checkout and pay for the items in the cart.
 
-## Getting Started
+## Things I did in the code
+I simply copied the code from the laboratory handout as the base code which includes the *main.dart*, *my_catalog.dart*, *my_cart.dart*, and *shopping_cart_provider.dart*.
 
-This project is a starting point for a Flutter application.
+Then, I added the *checkout.dart* file and wrote the Checkout widget similar to how the MyCart widget is implemented.
 
-A few resources to get you started if this is your first Flutter project:
+Then, I added the `/checkout` route in the *main.dart* and added an `ElevatedButton` in the *my_cart.dart* labeled "Checkout" to access the given route.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Then, I implemented the Checkout widget to display the items accessed via the `ShoppingCart` provider and implemented the `Pay Now` button to invoke the `removeAll()` method of the provider.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Challenges when developing the application
+The main challenge is conceptually understanding the provider in Flutter. It took my quite a while to understand it, but I mainly understood it by comparing to a similar concept - Redux - in web programming. I also had difficulty aligning the widgets to emulate how the exercise handout aligns the texts and such.
